@@ -1,0 +1,27 @@
+CAMINHOS BÁSICOS
+
+Caminho 1 – Execução normal, usuário encontrado
+N1 →
+N2 →
+N3 →
+N4 →
+N5 →
+N6 (true) →
+N7 →
+N9
+
+Caminho 2 – Execução normal, usuário NÃO encontrado
+N1 →
+N2 →
+N3 →
+N4 →
+N5 →
+N6 (false) →
+N9
+
+Caminho 3 – Exceção lançada em qualquer etapa
+N1 →
+N2 →
+(erro em qualquer ponto) →
+N8 →
+N9
