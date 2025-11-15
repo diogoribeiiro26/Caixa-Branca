@@ -1,0 +1,23 @@
+1. NOTAÇÃO DE GRAFO DE FLUXO
+
+Nós do Grafo
+N1 – Entrada do método
+N2 – Conexão com o BD (conn = conectarBD())
+N3 – Montagem do SQL
+N4 – Criação do Statement (conn.createStatement())
+N5 – Execução do SQL (st.executeQuery(sql))
+N6 – Decisão if (rs.next())
+N7 – Atribui nome = rs.getString("nome") + result = true
+N8 – Bloco catch (exceção)
+N9 – Retorno (return result)
+
+Arestas (ligações)
+N1 → N2
+N2 → N3
+N3 → N4
+N4 → N5
+N5 → N6
+N6 → N7 (se verdadeiro)
+N6 → N9 (se falso)
+Qualquer exceção → N8 → N9
+N7 → N9
