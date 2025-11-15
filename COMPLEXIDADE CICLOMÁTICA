@@ -1,0 +1,16 @@
+2.COMPLEXIDADE CICLOMÁTICA
+
+V(G) = E – N + 2
+
+E: número de arestas
+N: número de nós
+
+Nós (N): 9
+Arestas (E): 10
+(N1→N2, N2→N3, N3→N4, N4→N5, N5→N6, N6→N7, N6→N9, N7→N9, exceção→N8, N8→N9)
+
+V(G) = 10 – 9 + 2 = 3
+
+Complexidade ciclomática = 3
+
+Isso significa que o método possui 3 fluxos logicamente independentes.
